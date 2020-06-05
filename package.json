@@ -2,7 +2,7 @@
   "name": "twitter_node",
   "version": "1.0.0",
   "description": "Twitter-like app",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/majoseek/twitter_node#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "express-session": "^1.17.1",
     "mongodb": "^3.5.8",
     "nodemon": "^2.0.4"
   }
