@@ -23,10 +23,11 @@ app.post('/login',(req,res)=>{
 		if(resp)	//poprawne dane
 		{
 			req.session.login=req.body.login;
+			console.log(req.body.login,"logged in");
 		}
 		else
 		{
-			
+			console.log(req.body.login,"tried to log in");
 		}
 	});
 });
