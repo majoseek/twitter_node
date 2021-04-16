@@ -1,1 +1,3 @@
-"Twitter-like NodeJS STILL IN BUILD :)))" 
+# Self-Twitter
+## Description
+Still in build :)
